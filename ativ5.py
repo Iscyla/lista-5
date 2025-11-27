@@ -2,6 +2,8 @@
 
 cidades = ("Losagenles", "Vitória", "Paris", "Tóquio", "Bangkok", "Istambul")
 
-print(f"A primeira cidade é: {cidades[0]}")
+print(f"\nA primeira cidade é: {cidades[0]}\n")
 print(f"A última cidade é: {cidades[5]}")
-print("A última cidade é: ",len(cidades))
+print("\nTodas as cidades:")
+for cidade in cidades:
+    print(cidade)
