@@ -1,8 +1,14 @@
+#Crie um menu usando match case:
+#1 - Olá
+#2 - Informações
+#3 - Sair
+#Dependendo da escolha, exiba uma mensagem adequada.
+
 def menu():
-    print("=== MENU DE SEI LÁ ===")
-    print("1 - Olá")
-    print("2 - informações")
-    print("3 - sair")
+    print("Menu de alguma coisa")
+    print("1 - Olá!")
+    print("2 - Informações!")
+    print("3 - sair!")
 
 def ola():
     print("Olá, mundo!")

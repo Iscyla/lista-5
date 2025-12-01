@@ -1,3 +1,6 @@
+#• Se ele está na tupla
+#• Em qual posição (índice) aparece pela primeira vez
+
 numero = (10, 20, 30, 40, 50, 60, 70, 80, 90, 10)
 
 num = int(input("Digite um número: "))
